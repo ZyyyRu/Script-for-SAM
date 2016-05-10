@@ -3,6 +3,7 @@ var count = 17; //Количество символов в вашей персо
 mainlist = document.getElementsByClassName('badge_row is_link');
 a = document.getElementsByClassName('progress_info_bold');
 
+//### Это часть нужна, если есть две и более игры, ни разу неоткрывшиеся ###
 console.log("start C:\\Users\\Alexander\\Documents\\SteamAchievementManager63_hotfix\\SAM.Picker.exe");
 for (i = 0; i < mainlist.length; i++) {
 	try {
@@ -24,6 +25,7 @@ for (i = 0; i < mainlist.length/2; i++) {
 }
 if (mainlist.length%2 == 1)
 	console.log("taskkill /f /im SAM.Game.exe");
+//############################################################################
 
 for (i = 0; i < mainlist.length; i++) {
 	try {
