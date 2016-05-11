@@ -5,7 +5,7 @@
 */
 var count = 8;
 var fl = true;
-var url = "C:\\Users\\Alexander\\Documents\\SteamAchievementManager63_hotfix\\";
+var url = "C:\\Users\\Alexander\\Documents\\My Workspace\\Script-for-SAM\\";
 
 var i, sublist, str, temp1, temp2, kol;
 var mainlist1 = document.getElementsByClassName('badge_row is_link'); //Список игр, в которых есть карточки
