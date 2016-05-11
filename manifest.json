@@ -14,7 +14,7 @@
             "https://steamcommunity.com/id/*"
         ],
         "js": [
-            "script_in_content.js"
+            "script.js"
         ]
     }]
 }
