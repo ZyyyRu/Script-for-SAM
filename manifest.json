@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "SAM-UPD",
+    "version": "1.0.0",
+
+    "permissions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+
+    "content_scripts":[{
+        "matches": [
+            "http://steamcommunity.com/id/*",
+            "https://steamcommunity.com/id/*"
+        ],
+        "js": [
+            "script_in_content.js"
+        ]
+    }]
+}
