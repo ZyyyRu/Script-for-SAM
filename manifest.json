@@ -10,8 +10,10 @@
 
     "content_scripts":[{
         "matches": [
-            "http://steamcommunity.com/id/*",
-            "https://steamcommunity.com/id/*"
+            "http://steamcommunity.com/id/*/badges/",
+            "https://steamcommunity.com/id/*/badges/",
+            "http://steamcommunity.com/profiles/*/badges/",
+            "https://steamcommunity.com/profiles/*/badges/"
         ],
         "js": [
             "script.js"
