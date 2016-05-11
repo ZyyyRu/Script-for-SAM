@@ -20,7 +20,7 @@ if (fl) {
 				temp2 = temp1[0].innerHTML.trim().substring(6).trim().substring(0,1);
 				if (temp2 == 0 || temp2 == "") {
 					sublist = mainlist1[i].getElementsByClassName('badge_row_overlay');
-					str = "start " + url + "SAM.Game.exe " + sublist[0].href.substring(46+count)
+					str = "start " + url + "SAM.Game.exe " + sublist[0].href.substring(40+count)
 					console.log(str.substring(0,str.length-1));
 					kol++;
 				}
@@ -48,7 +48,7 @@ for (i = 0; i < mainlist1.length; i++) {
 	try {
 		if (mainlist2[i].innerHTML.length > 19) {
 			sublist = mainlist1[i].getElementsByClassName('badge_row_overlay');
-			str = "start " + url + "SAM.Game.exe " + sublist[0].href.substring(46+count)
+			str = "start " + url + "SAM.Game.exe " + sublist[0].href.substring(40+count)
 			console.log(str.substring(0,str.length-1));
 			temp1 = mainlist1[i].getElementsByClassName('badge_title_stats_playtime');
 			temp2 = temp1[0].innerHTML.trim().substring(6).trim().substring(0,1);
